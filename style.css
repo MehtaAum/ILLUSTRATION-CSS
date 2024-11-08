@@ -1,0 +1,860 @@
+*{
+    padding: 0PX;
+    margin: 0PX;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 100px;
+    padding-inline: 100px;
+    display: flex;
+}
+
+.navbar .logoheading{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(./ASSET/logo.png);
+    background-size: cover;
+    margin-right: 10px;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+   
+}
+
+#logintext{
+    color: black;
+    transition: 0.3s
+}
+
+#logintext:hover{
+    color:  #6E6E6E;
+    transition: 0.3s
+}
+
+.navbar .logoheading h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 22px;
+}
+
+.navbar .logoheading p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+
+}
+
+.navbar .alllinks{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+.navbar .alllinks .spacelink{
+    width: 85%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .alllinks .spacelink a{
+    text-decoration: none;
+    color:  black;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -0.5px;
+    transition: 0.3s
+}
+
+#home{
+    color: #6E6E6E;
+}
+
+
+.navbar .alllinks .spacelink a:hover{
+    color: #6E6E6E;
+    transition: 0.3s;
+}
+
+.navbar .alllinks .spacelink i{
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.navbar .alllinks .spacelink button{
+    width: 110px;
+    height: 40px;
+    border-radius: 6%;
+    font-family: "Montserrat", sans-serif;
+    color:  black;
+    font-weight: 700;
+    background-color: #FFBF23;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.navbar .alllinks .spacelink button:hover{
+    background-color: black;
+    color: #FFBF23;
+    transition: 0.6s;
+    border: none;
+}
+/* navbar */
+
+/* heropage */
+.hero{
+    width: 100%;
+    height: 770px;
+    display: flex;
+    padding-inline: 200px;
+  
+
+}
+
+.hero .heroleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.hero .heroleft #heading{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.hero .heroleft #pre2{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.hero .heroleft button{
+    width: 110px;
+    height: 40px;
+    border-radius: 8%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: rgb(0,0,0);
+    border: 1px solid;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.hero .heroleft button:hover{
+    background-color: #FFBF23;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.hero .heroleft .allheroicon{
+    display: flex;
+    font-size: 14px;
+
+}
+
+.hero .heroleft .heroicon{
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+    
+}
+
+.hero .heroleft .heroicon span{
+    padding-left: 10px;
+}
+
+
+.hero .heroright{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+/* heropage */
+
+/* sec3 */
+.section3{
+    width: 100%;
+    height: 500px;
+    background-color: #FFBF23;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section3 #div2img{
+    
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 500px;
+}
+
+.section3 #sec3pre{
+    font-size: 38px;
+    
+}
+
+.section3 #parasec3{
+    color: black;
+    font-size: 16px;
+
+}
+/* sec3 */
+
+/* sec4 */
+.section4{
+    width: 100%;
+    height: 1850px;
+    padding-inline: 180px;
+    padding-block: 120px;
+
+}
+
+.section4 .infodiv4{
+    width: 100%;
+    height: 150px;
+
+}
+
+.section4 #sec4pre{
+    font-size: 38px;
+    
+}
+
+.section4 #parasec4{
+    color: black;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 23px;
+
+}
+
+.section4 .allimgsection4{
+    width: 90%;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.section4 .allimgsection4 img{
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.section4 .allimgsection4 h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.section4 .allimgsection4 pre{
+    line-height: 25px;
+    font-size: 15px;
+    
+}
+     /* section4bulit */
+
+ .section4 .builtsec{
+    width: 100%;
+    height: 880px;
+    display: flex;
+    margin-top: 50px;
+
+ }    
+
+ .section4 .builtsec .builtleft{
+    width: 50%;
+    height: inherit;
+ }
+
+
+ .section4 .builtsec .builtright{
+    width: 50%;
+    height: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+
+ .section4 .builtsec .builtright .subbuiltright{
+    width: 570px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .section4 .builtsec .builtright .subbuiltright #headingsec4{
+    font-size: 38px;
+ }
+ .section4 .builtsec .builtright .subbuiltright #pre2sec4{
+    font-size: 16px;
+    line-height: 23px;
+ }
+
+ .section4 .builtsec .builtright .subbuiltright .allheroiconsec4{
+    display: flex;
+    width: 80%;
+
+ }
+ .section4 .builtsec .builtright .subbuiltright .allheroiconsec4 .heroiconsec4{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 20px;  
+
+ }
+/* sec4 */ 
+
+/* sec5 */
+.section5{
+    width: 100%;
+    height: 760px;
+    background-color: rgb(255,215,239);
+    position: relative;
+    
+  
+}
+
+.section5 .infosec5{
+    width: 650px;
+    height: 220px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.section5  #div5border{
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: 760px;
+    z-index: -1;
+}
+
+.section5 #headingdiv5{
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+.section5 #parasec5{
+    line-height: 23px;
+}
+
+.section5 .alllogodiv5{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+}
+
+.section5 .alllogodiv5 .div5logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+/* sec5 */
+
+/* sec6 */
+.section6{
+    width: 100%;
+    height: 900px;
+    padding-inline: 190px;
+    padding-top: 140px;
+}
+
+.section6 #head6{
+    font-size: 38px;
+}
+
+.section6 .alltest{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.section6 .alltest .test1{
+    width: 280px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5%;
+    position: relative;
+}
+
+.section6 .alltest .yellowline{
+    background-color: #FFBF23;
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+.section6 .alltest .div6dot{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.section6 .alltest p{
+    padding-inline: 30px;
+    line-height: 23px;
+    padding-top: 33px;
+    float: right;
+    
+}
+
+.section6 .alltest #author6{
+    float: right;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+
+#para6last{
+    padding-right: 13px;
+}
+
+.section6 .alltest #Leaf1{
+    position: absolute;
+    top: 277px;
+    right: 170px;
+
+}
+
+.section6 .alltest #Leaf2{
+    position: absolute;
+    top: 295px;
+    right: 176px;
+    
+
+}
+
+.section6 .alltest #Leaf3{
+    position: absolute;
+    top: 286px;
+    right: 177px;
+
+}
+
+/* sec6 */
+
+/* sec7 */
+
+.section7{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(246,245,245);
+    position: relative;
+    display: flex;
+}
+
+.section7 #border7{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 800px;
+}
+
+.section7 .sec7left{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section7 .sec7left .infosec7{
+    width: 50%;
+    height: 50%;
+}
+
+
+.section7 .sec7left p{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.section7 .sec7left pre{
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.section7 .sec7left button{
+    background: black;
+    width: 110px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 7%;
+    font-size: 16px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.section7 .sec7left button:hover{
+    background-color: #FFBF23;
+    color: black;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+
+
+.section7 .sec7right{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section7 .sec7right .subright7{
+    width: 480px;
+    height: 580px;
+
+}
+.section7 .sec7right .subright7 .onesub7{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    border-top-left-radius:  3%;
+    border-top-right-radius:  3%;
+    border: 2px solid black;
+    color: white;
+    padding-inline: 25px;
+}
+
+.headingform{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.section7 .sec7right .subright7 .onesub7 #bestv{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #FFBF23;
+    font-size: 14px;
+    border: 1px solid black;
+    font-weight: 700;
+    margin-top: -15px;
+
+}
+.section7 .sec7right .subright7 .onesub7 #head7{
+    font-size: 28px;
+    margin-top: 12px;
+
+}
+.section7 .sec7right .subright7 .onesub7 #usdollar{
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+.section7 .sec7right .subright7 .onesub7 #sub50{
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: -15px;
+    
+
+}
+.section7 .sec7right .subright7 .onesub7 #months7{
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.section7 .sec7right .subright7 .onesub7 #text7{
+    font-size: 14px;
+    margin-bottom: 30px;
+
+
+}
+.section7 .sec7right .subright7 .onesub7 #valid7{
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.section7 .sec7right .subright7 .onesub7 #section7btn{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    transition: 0.4s;
+
+}
+
+.section7 .sec7right .subright7 .onesub7 #section7btn:hover{
+background-color: rgb(184, 184, 184);
+transition: 0.4s;
+
+}
+
+.btn{
+    width: 100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section7 .sec7right .subright7 .secsub7{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(255,215,239);
+    border-bottom-left-radius:  3%;
+    border-bottom-right-radius:  3%;
+    border: 2px solid black;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 40px;
+    padding-inline: 30px;
+}
+
+
+.section7 .sec7right .subright7 .secsub7 .secsubcont{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.section7 .sec7right .subright7 .secsub7 i{
+    font-size: 18px;
+}
+.section7 .sec7right .subright7 .secsub7 p{
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+
+/* sec7 */
+
+/* sec8 */
+.section8{
+    width: 100%;
+    height: 800px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section8 #sechead8{
+    font-size: 38px;
+    text-align: center;
+}
+
+
+.section8 button{
+    width: 110px;
+    height: 40px;
+    border-radius: 8%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: rgb(0,0,0);
+    border: 1px solid;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.section8  button:hover{
+    background-color: #FFBF23;
+    color: black;
+    transition: 0.5s;
+}
+
+.section8 img{
+    position: absolute;
+    top: 230px;
+}
+/* sec8 */
+
+/* sec9 */
+.section9{
+    width: 100%;
+    height: 550px;
+    background-color: #FFBF23;
+    padding-inline: 100px;
+    
+}
+
+.section9 .logoheading2{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: end;
+
+}
+
+.section9 .logoheading2 h1{
+    font-size: 22px;
+}
+
+.section9 .logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(./ASSET/logo.png);
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.section9 .mainfoot{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 80px;
+    margin-top: 60px;
+}
+
+.section9 .mainfoot #footcontact{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+    
+}
+
+.section9 .mainfoot #condiv1{
+    display: flex;
+}
+
+.section9 .mainfoot p{
+    line-height: 23px;
+   
+}
+
+.section9 .mainfoot #sameline{
+    padding-bottom: 50px;
+}
+
+.section9 .mainfoot #sale{
+    margin-left: 100px;
+}
+.section9 .mainfoot #sale2{
+    margin-left: 164px;
+}
+.section9 .mainfoot #linkspolicy
+{
+    display: flex;
+    flex-direction: column;
+
+}
+#linkspolicy a{
+    margin-bottom: 30px;
+    color: black;
+}
+
+#label{
+    margin-bottom: 20px;
+}
+
+#input{
+    width: 180px;
+    height: 40px;
+    border: 2px solid black;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-top: 5px;
+    background-color: #FFBF23;
+    transition: 0.3s;
+  
+}
+#input:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+#lastsubmit{
+    width: 110px;
+    height: 40px;
+    border-radius: 8%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: rgb(0,0,0);
+    border:none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    margin-left: -10px;
+}
+#lastsubmit:hover{
+    background-color: #FFBF23;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid black;
+}
+#sociallinks a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/* sec9 */
+
+/* sec10 */
+.copy{
+    width: 100%;
+    height: 32px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pointer{
+    cursor: pointer;
+}
+/* sec10 */
